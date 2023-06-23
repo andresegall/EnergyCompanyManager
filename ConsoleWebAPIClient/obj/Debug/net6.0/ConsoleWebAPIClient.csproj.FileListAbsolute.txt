@@ -1,0 +1,15 @@
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\ConsoleWebAPIClient.exe
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\ConsoleWebAPIClient.deps.json
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\ConsoleWebAPIClient.runtimeconfig.json
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\ConsoleWebAPIClient.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\ConsoleWebAPIClient.pdb
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.csproj.AssemblyReference.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.AssemblyInfoInputs.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.AssemblyInfo.cs
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.csproj.CoreCompileInputs.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\refint\ConsoleWebAPIClient.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.pdb
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ConsoleWebAPIClient.genruntimeconfig.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ref\ConsoleWebAPIClient.dll
