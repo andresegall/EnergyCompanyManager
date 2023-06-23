@@ -1,0 +1,17 @@
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\EnergyCompanyManager.ConsoleClient.exe
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\EnergyCompanyManager.ConsoleClient.deps.json
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\EnergyCompanyManager.ConsoleClient.runtimeconfig.json
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\EnergyCompanyManager.ConsoleClient.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\EnergyCompanyManager.ConsoleClient.pdb
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.csproj.AssemblyReference.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.AssemblyInfoInputs.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.AssemblyInfo.cs
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.csproj.CoreCompileInputs.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.csproj.CopyComplete
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\refint\EnergyCompanyManager.ConsoleClient.dll
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.pdb
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\EnergyCompanyManager.ConsoleClient.genruntimeconfig.cache
+C:\Projects\EnergyCompanyManager\ConsoleWebAPIClient\obj\Debug\net6.0\ref\EnergyCompanyManager.ConsoleClient.dll

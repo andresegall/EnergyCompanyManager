@@ -1,8 +1,8 @@
+using EnergyCompanyManager.WebAPI.Persistence;
 using Microsoft.AspNetCore.Mvc;
-using WebAPI.Persistence;
-using Endpoint = WebAPI.Models.Endpoint;
+using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
 
-namespace WebAPI.Controllers;
+namespace EnergyCompanyManager.WebAPI.Controllers;
 
 [ApiController]
 [Route("endpoint")]

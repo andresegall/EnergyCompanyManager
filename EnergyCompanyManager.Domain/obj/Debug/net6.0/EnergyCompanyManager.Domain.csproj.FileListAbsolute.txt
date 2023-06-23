@@ -1,0 +1,12 @@
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\bin\Debug\net6.0\EnergyCompanyManager.Domain.deps.json
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\bin\Debug\net6.0\EnergyCompanyManager.Domain.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\bin\Debug\net6.0\EnergyCompanyManager.Domain.pdb
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.csproj.AssemblyReference.cache
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.AssemblyInfoInputs.cache
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.AssemblyInfo.cs
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.csproj.CoreCompileInputs.cache
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\refint\EnergyCompanyManager.Domain.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\EnergyCompanyManager.Domain.pdb
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Domain\obj\Debug\net6.0\ref\EnergyCompanyManager.Domain.dll

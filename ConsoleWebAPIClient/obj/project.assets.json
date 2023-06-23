@@ -60,9 +60,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\ConsoleClient.csproj",
-      "projectName": "ConsoleClient",
-      "projectPath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\ConsoleClient.csproj",
+      "projectUniqueName": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\EnergyCompanyManager.ConsoleClient.csproj",
+      "projectName": "EnergyCompanyManager.ConsoleClient",
+      "projectPath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\EnergyCompanyManager.ConsoleClient.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\obj\\",
       "projectStyle": "PackageReference",

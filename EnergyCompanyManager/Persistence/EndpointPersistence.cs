@@ -1,5 +1,6 @@
-﻿namespace WebAPI.Persistence;
-using Endpoint = Models.Endpoint;
+﻿using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
+
+namespace EnergyCompanyManager.WebAPI.Persistence;
 
 public static class EndpointPersistence
 {

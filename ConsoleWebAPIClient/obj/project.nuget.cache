@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "RKkiZdaThJl1tQWgdQfyKSKgv3yxHnEUcZq67a1fiKL/kYUXB7dvkNwDicZiYTxC0Loh/Kg1ACgYFbS1XtgkxA==",
+  "dgSpecHash": "8+T+GDmwxrAB7VR3hknZaUByqVbp9pE7pNBWx8C6hrUQcjoP6v5zntof8eJN3LIGH5mxXiDHB8+0HIn+cQOTQQ==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\ConsoleClient.csproj",
+  "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\EnergyCompanyManager.ConsoleClient.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
