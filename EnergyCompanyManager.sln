@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EnergyCompanyManager", "EnergyCompanyManager\EnergyCompanyManager.csproj", "{E7BF3B64-EF42-499A-923F-69FA86E7BFFF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebAPI", "EnergyCompanyManager\WebAPI.csproj", "{E7BF3B64-EF42-499A-923F-69FA86E7BFFF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleWebAPIClient", "ConsoleWebAPIClient\ConsoleWebAPIClient.csproj", "{93F46926-298C-43E7-98C8-A2B4D9C11DDD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleWebAPIClient\ConsoleClient.csproj", "{93F46926-298C-43E7-98C8-A2B4D9C11DDD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

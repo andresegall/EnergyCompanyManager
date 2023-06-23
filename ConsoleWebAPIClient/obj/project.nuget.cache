@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yYca05/F+/dgln+47EX8eUxS7G3WoWFrBlnSViEOcFcfFWiXHpoE4Hd4gZOIu8ZatfVZSFXaxy1XppAMq9DI8A==",
+  "dgSpecHash": "8iUIDlYCPOjxLXhWKV+f/Ux3GrWnAxlzg7ZuzbCe1jMv8wX+UzAoCtJGZnYqSdJJmXAYAi+N/WFr7y1RJnP1Lw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\ConsoleWebAPIClient.csproj",
+  "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\ConsoleWebAPIClient\\ConsoleClient.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

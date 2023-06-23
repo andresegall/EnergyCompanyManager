@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b6n0+deny4obt5p1QVFTChacq4FDnQjWNpxfZBIuSzV/+lLLjF4xwBDvU5dKpdg874d2BopyJrgGh2Fs6eZfmg==",
+  "dgSpecHash": "uBi5y4jZ9I+E6ntmximEoltKn+XXVMcfOgq7/dE0SXKRXpWT/wMQwuPiQ/YLiVJhddXyoaJZhsjVC/1983/CQw==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\EnergyCompanyManager.csproj",
+  "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",

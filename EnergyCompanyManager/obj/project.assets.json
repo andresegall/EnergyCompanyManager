@@ -229,9 +229,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\EnergyCompanyManager.csproj",
-      "projectName": "EnergyCompanyManager",
-      "projectPath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\EnergyCompanyManager.csproj",
+      "projectUniqueName": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\WebAPI.csproj",
+      "projectName": "WebAPI",
+      "projectPath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\WebAPI.csproj",
       "packagesPath": "C:\\Users\\andre\\.nuget\\packages\\",
       "outputPath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\obj\\",
       "projectStyle": "PackageReference",

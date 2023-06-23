@@ -1,4 +1,4 @@
-namespace EnergyCompanyManager.Models;
+namespace WebAPI.Models;
 
 public class Endpoint
 {

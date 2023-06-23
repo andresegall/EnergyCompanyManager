@@ -1,8 +1,8 @@
 {
   "Version": 1,
-  "Hash": "p/AY177CF/IyLLg7he5mlbyFGeJAs8qsDcVOh0OcsHE=",
-  "Source": "EnergyCompanyManager",
-  "BasePath": "_content/EnergyCompanyManager",
+  "Hash": "7/8N/7vR8Gil4oF52j1JyaDaDh/w/bwrwTANJiMV94U=",
+  "Source": "WebAPI",
+  "BasePath": "_content/WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
