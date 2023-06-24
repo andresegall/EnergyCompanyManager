@@ -1,0 +1,15 @@
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\bin\Debug\net6.0\EnergyCompanyManager.Infra.deps.json
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\bin\Debug\net6.0\EnergyCompanyManager.Infra.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\bin\Debug\net6.0\EnergyCompanyManager.Infra.pdb
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\bin\Debug\net6.0\EnergyCompanyManager.Domain.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\bin\Debug\net6.0\EnergyCompanyManager.Domain.pdb
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.csproj.AssemblyReference.cache
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.AssemblyInfoInputs.cache
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.AssemblyInfo.cs
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.csproj.CoreCompileInputs.cache
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.csproj.CopyComplete
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\refint\EnergyCompanyManager.Infra.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\EnergyCompanyManager.Infra.pdb
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager.Infra\obj\Debug\net6.0\ref\EnergyCompanyManager.Infra.dll

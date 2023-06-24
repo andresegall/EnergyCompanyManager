@@ -64,6 +64,9 @@
         }
       },
       "EnergyCompanyManager.Application/1.0.0": {
+        "dependencies": {
+          "EnergyCompanyManager.Infra": "1.0.0"
+        },
         "runtime": {
           "EnergyCompanyManager.Application.dll": {}
         }
@@ -71,6 +74,14 @@
       "EnergyCompanyManager.Domain/1.0.0": {
         "runtime": {
           "EnergyCompanyManager.Domain.dll": {}
+        }
+      },
+      "EnergyCompanyManager.Infra/1.0.0": {
+        "dependencies": {
+          "EnergyCompanyManager.Domain": "1.0.0"
+        },
+        "runtime": {
+          "EnergyCompanyManager.Infra.dll": {}
         }
       }
     }
@@ -129,6 +140,11 @@
       "sha512": ""
     },
     "EnergyCompanyManager.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "EnergyCompanyManager.Infra/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

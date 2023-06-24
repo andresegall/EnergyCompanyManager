@@ -34,3 +34,5 @@ C:\Projects\EnergyCompanyManager\EnergyCompanyManager\bin\Debug\net6.0\EnergyCom
 C:\Projects\EnergyCompanyManager\EnergyCompanyManager\bin\Debug\net6.0\EnergyCompanyManager.Application.pdb
 C:\Projects\EnergyCompanyManager\EnergyCompanyManager\bin\Debug\net6.0\EnergyCompanyManager.Domain.dll
 C:\Projects\EnergyCompanyManager\EnergyCompanyManager\bin\Debug\net6.0\EnergyCompanyManager.Domain.pdb
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager\bin\Debug\net6.0\EnergyCompanyManager.Infra.dll
+C:\Projects\EnergyCompanyManager\EnergyCompanyManager\bin\Debug\net6.0\EnergyCompanyManager.Infra.pdb

@@ -1,3 +1,4 @@
+using EnergyCompanyManager.Application.Services;
 using EnergyCompanyManager.WebAPI.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
@@ -8,19 +9,24 @@ namespace EnergyCompanyManager.WebAPI.Controllers;
 [Route("endpoint")]
 public class EndpointController : ControllerBase
 {
-    public EndpointController()
+    private readonly IEndpointService _endpointService;
+
+    public EndpointController(IEndpointService endpointService)
     {
+        _endpointService = endpointService;
     }
 
     [HttpPost]
     public IActionResult CreateEndpoint(Endpoint endpoint)
     {
-        if (EndpointPersistence.Endpoints.Any(x => x.SerialNumber == endpoint.SerialNumber))
-        {
-            return BadRequest();
-        }
+        //if (EndpointPersistence.Endpoints.Any(x => x.SerialNumber == endpoint.SerialNumber))
+        //{
+        //    return BadRequest();
+        //}
 
-        EndpointPersistence.Endpoints.Add(endpoint);
+        //EndpointPersistence.Endpoints.Add(endpoint);
+
+        _endpointService.Create(endpoint);
 
         return Ok(endpoint);
     }
@@ -61,7 +67,10 @@ public class EndpointController : ControllerBase
     [HttpGet("get-all")]
     public IActionResult ListAllEndpoints()
     {
-        return Ok(EndpointPersistence.Endpoints);
+        //return Ok(EndpointPersistence.Endpoints);
+
+        var endpoints = _endpointService.GetAll();
+        return Ok(endpoints);
     }
 
     [HttpGet]

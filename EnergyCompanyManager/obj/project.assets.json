@@ -92,6 +92,9 @@
       "EnergyCompanyManager.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EnergyCompanyManager.Infra": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/EnergyCompanyManager.Application.dll": {}
         },
@@ -107,6 +110,19 @@
         },
         "runtime": {
           "bin/placeholder/EnergyCompanyManager.Domain.dll": {}
+        }
+      },
+      "EnergyCompanyManager.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EnergyCompanyManager.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EnergyCompanyManager.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EnergyCompanyManager.Infra.dll": {}
         }
       }
     }
@@ -246,6 +262,11 @@
       "type": "project",
       "path": "../EnergyCompanyManager.Domain/EnergyCompanyManager.Domain.csproj",
       "msbuildProject": "../EnergyCompanyManager.Domain/EnergyCompanyManager.Domain.csproj"
+    },
+    "EnergyCompanyManager.Infra/1.0.0": {
+      "type": "project",
+      "path": "../EnergyCompanyManager.Infra/EnergyCompanyManager.Infra.csproj",
+      "msbuildProject": "../EnergyCompanyManager.Infra/EnergyCompanyManager.Infra.csproj"
     }
   },
   "projectFileDependencyGroups": {

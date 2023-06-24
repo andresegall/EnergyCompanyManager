@@ -1,11 +1,48 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "EnergyCompanyManager.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "compile": {
+          "bin/placeholder/EnergyCompanyManager.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EnergyCompanyManager.Domain.dll": {}
+        }
+      },
+      "EnergyCompanyManager.Infra/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "EnergyCompanyManager.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/EnergyCompanyManager.Infra.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/EnergyCompanyManager.Infra.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "EnergyCompanyManager.Domain/1.0.0": {
+      "type": "project",
+      "path": "../EnergyCompanyManager.Domain/EnergyCompanyManager.Domain.csproj",
+      "msbuildProject": "../EnergyCompanyManager.Domain/EnergyCompanyManager.Domain.csproj"
+    },
+    "EnergyCompanyManager.Infra/1.0.0": {
+      "type": "project",
+      "path": "../EnergyCompanyManager.Infra/EnergyCompanyManager.Infra.csproj",
+      "msbuildProject": "../EnergyCompanyManager.Infra/EnergyCompanyManager.Infra.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "EnergyCompanyManager.Infra >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\andre\\.nuget\\packages\\": {}
@@ -33,7 +70,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager.Infra\\EnergyCompanyManager.Infra.csproj": {
+              "projectPath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager.Infra\\EnergyCompanyManager.Infra.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

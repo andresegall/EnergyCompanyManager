@@ -1,4 +1,8 @@
+using EnergyCompanyManager.Application.Services;
+
 var builder = WebApplication.CreateBuilder(args);
+
+builder.Services.AddScoped<IEndpointService, EndpointService>();
 
 // Add services to the container.
 
