@@ -19,8 +19,18 @@ public static class EndpointRepository
         return endpoint;
     }
 
-    public static List<Endpoint> GetAll()
+    public static IEnumerable<Endpoint> GetAll()
     {
         return _endpoints;
+    }
+
+    public static Endpoint? GetBySerialNumber(string serialNumber)
+    {
+        return _endpoints.Find(x => x.SerialNumber == serialNumber);
+    }
+
+    public static bool Delete(Endpoint endpoint)
+    {
+        return _endpoints.Remove(endpoint);
     }
 }

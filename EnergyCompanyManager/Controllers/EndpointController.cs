@@ -1,5 +1,4 @@
 using EnergyCompanyManager.Application.Services;
-using EnergyCompanyManager.WebAPI.Persistence;
 using Microsoft.AspNetCore.Mvc;
 using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
 
@@ -17,72 +16,62 @@ public class EndpointController : ControllerBase
     }
 
     [HttpPost]
-    public IActionResult CreateEndpoint(Endpoint endpoint)
+    public IActionResult Create(Endpoint endpoint)
     {
-        //if (EndpointPersistence.Endpoints.Any(x => x.SerialNumber == endpoint.SerialNumber))
-        //{
-        //    return BadRequest();
-        //}
+        var response = _endpointService.Create(endpoint);
 
-        //EndpointPersistence.Endpoints.Add(endpoint);
+        if (response == null)
+        {
+            return BadRequest();
+        }
 
-        _endpointService.Create(endpoint);
-
-        return Ok(endpoint);
+        return Ok(response);
     }
 
     [HttpPut]
-    public IActionResult EditEndpoint(Endpoint endpoint)
+    public IActionResult Edit(Endpoint endpoint)
     {
-        var entity = EndpointPersistence.Endpoints.FirstOrDefault(x => x.SerialNumber == endpoint.SerialNumber);
+        var response = _endpointService.Edit(endpoint);
 
-        if (entity == null)
+        if (response == null)
         {
             return NotFound();
         }
 
-        entity.MeterModelId = endpoint.MeterModelId;
-        entity.MeterNumber = endpoint.MeterNumber;
-        entity.MeterFirmwareVersion = endpoint.MeterFirmwareVersion;
-        entity.SwitchState = endpoint.SwitchState;
-
-        return Ok(endpoint);
+        return Ok(response);
     }
 
     [HttpDelete]
-    public IActionResult DeleteEndpoint(string serialNumber)
+    public IActionResult Delete(string serialNumber)
     {
-        var entity = EndpointPersistence.Endpoints.FirstOrDefault(x => x.SerialNumber == serialNumber);
+        var success = _endpointService.Delete(serialNumber);
 
-        if (entity == null)
+        if (success)
         {
-            return NotFound();
+            return Ok();
         }
 
-        EndpointPersistence.Endpoints.Remove(entity);
-
-        return Ok();
+        return BadRequest();
     }
 
     [HttpGet("get-all")]
-    public IActionResult ListAllEndpoints()
+    public IActionResult GetAll()
     {
-        //return Ok(EndpointPersistence.Endpoints);
+        var response = _endpointService.GetAll();
 
-        var endpoints = _endpointService.GetAll();
-        return Ok(endpoints);
+        return Ok(response);
     }
 
     [HttpGet]
-    public IActionResult FindEndpointBySerialNumber(string serialNumber)
+    public IActionResult GetBySerialNumber(string serialNumber)
     {
-        var entity = EndpointPersistence.Endpoints.FirstOrDefault(x => x.SerialNumber == serialNumber);
+        var response = _endpointService.GetBySerialNumber(serialNumber);
 
-        if (entity == null)
+        if (response == null)
         {
             return NotFound();
         }
 
-        return Ok(entity);
+        return Ok(response);
     }
 }
