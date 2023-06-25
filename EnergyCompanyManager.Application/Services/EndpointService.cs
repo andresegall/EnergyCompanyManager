@@ -1,16 +1,16 @@
-﻿using EnergyCompanyManager.Domain.Validators;
-using EnergyCompanyManager.Infra.Repositories;
+﻿using EnergyCompanyManager.Infra.Repositories;
+using FluentValidation;
 using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
 
 namespace EnergyCompanyManager.Application.Services;
 
 public class EndpointService : IEndpointService
 {
-    private readonly EndpointValidator _validator;
+    private readonly IValidator<Endpoint> _validator;
 
-    public EndpointService()
+    public EndpointService(IValidator<Endpoint> validator)
     {
-        _validator = new EndpointValidator();
+        _validator = validator;
     }
 
     public Response<Endpoint?> Create(Endpoint endpoint)
@@ -27,11 +27,6 @@ public class EndpointService : IEndpointService
         var entity = EndpointRepository.Create(endpoint);
 
         return new Response<Endpoint?>(entity, true);
-    }
-
-    public IEnumerable<Endpoint> GetAll()
-    {
-        return EndpointRepository.GetAll();
     }
 
     public Response<int> EditSwitchState(string serialNumber, int switchState)
@@ -64,11 +59,6 @@ public class EndpointService : IEndpointService
         EndpointRepository.Delete(serialNumber);
 
         return new Response(true);
-    }
-
-    public Endpoint? GetBySerialNumber(string serialNumber)
-    {
-        return EndpointRepository.GetBySerialNumber(serialNumber);
     }
 
     private (bool Success, string Message) ValidateEndpointProperties(Endpoint endpoint)

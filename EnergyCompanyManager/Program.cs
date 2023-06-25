@@ -1,8 +1,14 @@
+using EnergyCompanyManager.Application.Queries;
 using EnergyCompanyManager.Application.Services;
+using EnergyCompanyManager.Domain.Validators;
+using FluentValidation;
+using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddScoped<IEndpointService, EndpointService>();
+builder.Services.AddScoped<IEndpointQuery, EndpointQuery>();
+builder.Services.AddScoped<IValidator<Endpoint>, EndpointValidator>();
 
 // Add services to the container.
 

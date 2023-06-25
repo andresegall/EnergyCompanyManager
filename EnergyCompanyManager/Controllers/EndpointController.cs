@@ -1,3 +1,4 @@
+using EnergyCompanyManager.Application.Queries;
 using EnergyCompanyManager.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 using Endpoint = EnergyCompanyManager.Domain.Models.Endpoint;
@@ -9,10 +10,12 @@ namespace EnergyCompanyManager.WebAPI.Controllers;
 public class EndpointController : ControllerBase
 {
     private readonly IEndpointService _endpointService;
+    private readonly IEndpointQuery _endpointQuery;
 
-    public EndpointController(IEndpointService endpointService)
+    public EndpointController(IEndpointService endpointService, IEndpointQuery endpointQuery)
     {
         _endpointService = endpointService;
+        _endpointQuery = endpointQuery;
     }
 
     [HttpPost]
@@ -57,7 +60,7 @@ public class EndpointController : ControllerBase
     [HttpGet("get-all")]
     public IActionResult GetAll()
     {
-        var response = _endpointService.GetAll();
+        var response = _endpointQuery.GetAll();
 
         return Ok(response);
     }
@@ -65,7 +68,7 @@ public class EndpointController : ControllerBase
     [HttpGet]
     public IActionResult GetBySerialNumber(string serialNumber)
     {
-        var response = _endpointService.GetBySerialNumber(serialNumber);
+        var response = _endpointQuery.GetBySerialNumber(serialNumber);
 
         if (response == null)
         {
