@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "FzxNfL9q/b3uJcwSdaNVgPKw+eFSZXxt84okLE8sAS+dVLeeA91BK0IhG2IW1YABlDgIYLlw993hwhVxlkIg1Q==",
+  "dgSpecHash": "QPQJ64QveDF3yHVAKLWoH0WU/JXXrs/aalbbDKVUOECJ+QGyd15meQE7+c+l8BVRlisA4avhmkhVjBMyhZoUuQ==",
   "success": true,
   "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager.Domain\\EnergyCompanyManager.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512"
+  ],
   "logs": []
 }

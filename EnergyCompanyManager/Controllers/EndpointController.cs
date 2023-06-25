@@ -20,22 +20,22 @@ public class EndpointController : ControllerBase
     {
         var response = _endpointService.Create(endpoint);
 
-        if (response == null)
+        if (!response.Success)
         {
-            return BadRequest();
+            return BadRequest(response.ErrorMessage);
         }
 
         return Ok(response);
     }
 
-    [HttpPut]
-    public IActionResult Edit(Endpoint endpoint)
+    [HttpPatch]
+    public IActionResult EditSwitchState(string serialNumber, int switchState)
     {
-        var response = _endpointService.Edit(endpoint);
+        var response = _endpointService.EditSwitchState(serialNumber, switchState);
 
-        if (response == null)
+        if (!response.Success)
         {
-            return NotFound();
+            return BadRequest(response.ErrorMessage);
         }
 
         return Ok(response);
@@ -44,14 +44,14 @@ public class EndpointController : ControllerBase
     [HttpDelete]
     public IActionResult Delete(string serialNumber)
     {
-        var success = _endpointService.Delete(serialNumber);
+        var response = _endpointService.Delete(serialNumber);
 
-        if (success)
+        if (!response.Success)
         {
-            return Ok();
+            return BadRequest(response.ErrorMessage);
         }
 
-        return BadRequest();
+        return Ok();
     }
 
     [HttpGet("get-all")]

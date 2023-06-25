@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "hC7w0Z8iSZwZvqllLGoyrVYbqYWIUX84QzAAYWsd4/H44qyn6aAELiRzM781vX7C23T+q8mMBiqAM/UZ/Lxhwg==",
+  "dgSpecHash": "dvWJum8j8FLGLfiRX96HKlWU6HRFbAMvnvMMXQHAptXydXpjv7FGTPepjTpIRTdNywpjGBQ4GrQ3fDhhp9zuuw==",
   "success": true,
   "projectFilePath": "C:\\Projects\\EnergyCompanyManager\\EnergyCompanyManager\\EnergyCompanyManager.WebAPI.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\andre\\.nuget\\packages\\fluentvalidation\\11.5.2\\fluentvalidation.11.5.2.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\andre\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",

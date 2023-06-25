@@ -29,8 +29,9 @@ public static class EndpointRepository
         return _endpoints.Find(x => x.SerialNumber == serialNumber);
     }
 
-    public static bool Delete(Endpoint endpoint)
+    public static bool Delete(string serialNumber)
     {
-        return _endpoints.Remove(endpoint);
+        var entity = GetBySerialNumber(serialNumber);
+        return _endpoints.Remove(entity!);
     }
 }
