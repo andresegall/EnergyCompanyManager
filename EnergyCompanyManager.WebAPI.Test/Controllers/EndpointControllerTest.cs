@@ -29,8 +29,8 @@ public class EndpointControllerTest
         _endpointService.Create(endpoint).Returns(new Response<Endpoint?>(endpoint, true));
 
         var actionResult = _endpointController.Create(endpoint);
-        var okResult = actionResult as OkObjectResult;
-        var response = okResult!.Value as Response<Endpoint?>;
+        var createdAtActionResult = actionResult as CreatedAtActionResult;
+        var response = createdAtActionResult!.Value as Response<Endpoint?>;
 
         response!.Data.Should().BeEquivalentTo(endpoint);
         response.Success.Should().BeTrue();

@@ -28,7 +28,10 @@ public class EndpointController : ControllerBase
             return BadRequest(response.ErrorMessage);
         }
 
-        return Ok(response);
+        return CreatedAtAction(
+            nameof(GetBySerialNumber),
+            new { serialNumber = endpoint.SerialNumber },
+            response);
     }
 
     [HttpPatch]
