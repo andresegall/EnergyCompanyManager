@@ -13,9 +13,9 @@ public class Endpoint
     public int SwitchState { get; set; }
 
     public override string ToString() =>
-        $"\nEndpoint {SerialNumber}\n" +
-        $"  Meter model id: {MeterModelId}\n" +
-        $"  Meter number: {MeterNumber}\n" +
-        $"  Meter firmware version: {MeterFirmwareVersion}\n" +
-        $"  Switch state: {SwitchState}\n";
+        $"\n  Endpoint {SerialNumber}\n" +
+        $"    Meter model id: {MeterModelId}\n" +
+        $"    Meter number: {MeterNumber}\n" +
+        $"    Meter firmware version: {MeterFirmwareVersion}\n" +
+        $"    Switch state: {SwitchState}\n";
 }
