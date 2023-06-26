@@ -31,5 +31,16 @@ public class Endpoint
         $"    Meter model id: {MeterModelId}\n" +
         $"    Meter number: {MeterNumber}\n" +
         $"    Meter firmware version: {MeterFirmwareVersion}\n" +
-        $"    Switch state: {SwitchState}\n";
+        $"    Switch state: {SwitchStateToString(SwitchState)}\n";
+
+    private static string SwitchStateToString(int switchState)
+    {
+        return switchState switch
+        {
+            0 => "Disconnected",
+            1 => "Connected",
+            2 => "Armed",
+            _ => "",
+        };
+    }
 }

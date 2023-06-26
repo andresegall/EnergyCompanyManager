@@ -60,7 +60,7 @@ async Task InsertEndpointAsync()
     Console.WriteLine("  Type firmware version: ");
     var meterFirmwareVersion = ReaderHelper.ReadTextInput();
 
-    Console.WriteLine("  Type switch state: ");
+    Console.WriteLine("  Type switch state (0 => Disconnected; 1 => Connected; 2 => Armed): ");
     var switchState = ReaderHelper.ReadIntegerInput();
 
     var endpoint = new Endpoint(
@@ -93,7 +93,7 @@ async Task EditEndpointAsync()
     Console.WriteLine("  Type endpoint serial number: ");
     var serialNumber = ReaderHelper.ReadTextInput();
 
-    Console.WriteLine("  Type the new switch state: ");
+    Console.WriteLine("  Type switch state (0 => Disconnected; 1 => Connected; 2 => Armed): ");
     var switchState = ReaderHelper.ReadIntegerInput();
 
     var httpResponse = await client
